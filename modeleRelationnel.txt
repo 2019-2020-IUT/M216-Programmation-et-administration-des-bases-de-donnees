@@ -1,0 +1,8 @@
+ADMINISTRATEUR : (l​ogin​ , motDePasse)
+SUPER_ADMINISTRATEUR : (​#login)
+CLIENT : (idClient​, nom, prenom, email)
+FACTURE : (​ idFacture​, prix, #idClient)
+ARTISTE : (​ #idArtiste​ , dateNaissance, photoArtiste, nbVotesArtiste)
+ŒUVRE : (​refOeuvre​, titre, description, type, prix, nbVotesOeuvre, estALaVente, #idArtiste)
+ŒUVRE_ACHETEE : (​#refOeuvre​, #facture)
+PHOTO_OEUVRE : (​nomPhoto​, #refOeuvre, photo : BLOB)
