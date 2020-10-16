@@ -11,12 +11,12 @@
 
 --creation administrateurs
 INSERT INTO administrateur VALUES('leloune', 'mini-projet1');
-INSERT INTO administrateur VALUES('josePomme', 'mini-projet2');
+INSERT INTO administrateur VALUES('PaulineLaPomme', 'mini-projet2');
 INSERT INTO administrateur VALUES('Bob', 'leponge');
 
 --creation super administrateurs
 INSERT INTO super_administrateur VALUES('leloune');
-INSERT INTO super_administrateur VALUES('josePomme');
+INSERT INTO super_administrateur VALUES('PaulineLaPomme');
 
 --creation clients -- (idClient, nom, prenom, email) -- INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL,'','','.@artiste.');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Vautier', 'Benjamin', 'benjamin.vautier@artiste.fr');
