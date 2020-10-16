@@ -1,8 +1,8 @@
 /*
  *  /-********************************************************************-\
- *  | Project       : Art_Galère  							                           |
+ *  | Project       : Art_GalÃ¨re  							                           |
  *  | File Name     : createDataGalerie.sql											           |
- *  | Author        : SRIFI José && VALABREGUE Léon										     |
+ *  | Author        : SRIFI Pauline && VALABREGUE LÃ©on										     |
  *  | Creation Date : 06/12/2019										                       |
  *  \-********************************************************************-/ 
  */
@@ -22,7 +22,7 @@ INSERT INTO super_administrateur VALUES('josePomme');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Vautier', 'Benjamin', 'benjamin.vautier@artiste.fr');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Chagall', 'Marc', 'marc.chagall@artiste.ru');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Klein', 'Yves', 'yves.klein@artiste.fr');
-INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'De Vinci', 'Léonard', 'leonardo.davinci@artiste.it');
+INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'De Vinci', 'LÃ©onard', 'leonardo.davinci@artiste.it');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'De Saint Phalle', 'Niki', 'niki.desaintphalle@artiste.fr');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Picasso', 'Pablo', 'pablo.picasso@artiste.es');
 INSERT INTO client VALUES (SEQ_CLIENT.NEXTVAL, 'Van Gogh', 'Vincent', 'vincent.vangogh@artiste.nl');
@@ -44,15 +44,15 @@ INSERT INTO artiste (idArtiste, DateNaissance) VALUES (7, (TO_DATE('30/03/1853',
 --creation oeuvres -- refOeuvre, titre, description, type, prix, nbVotesOeuvre, estALaVente, idartiste -- INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, '', '', '', , , , );
 
 INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'ben1', 'il y a trop d''art ', 'peinture', null, 0, 0, 1);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Le cimetière', 'Huile et crayon sur toile de lin', 'peinture', null , 0, 0, 2); 
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Anthropométrie de l''époque bleue', 'Anthropométrie de l''époque bleue est une des toiles de la série des « Anthropométries », empreintes de corps de femmes nues et enduites de couleur bleue sur toiles. Cette œuvre fait partie de la collection permanente du Centre Pompidou', 'peinture', 350000, 0, 0, 3);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'La cène', 'La cène est une peinture murale à la détrempe réalisée de 1495 à 1498 pour le réfectoire du couvent dominicain de Santa Maria delle Grazie à Milan', 'peinture', 30000000, 0, 0, 4);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Mona Lisa', 'Mona Lisa, est un tableau réalisé entre 1503 et 1506 qui représente un portrait mi-corps,', 'peinture', null, 0, 0, 4);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Salvator Mundi', 'Le Salvator Mundi est une peinture à l''huile sur bois de noyer, sur le thème du Christ rédempteur, réalisée vers 1500 pour le roi de France et son épouse', 'peinture', 382000000, 0, 1, 4);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Les trois graces', 'Dans la mythologie grecque les Grâces étaient les déesses du charme, de la beauté, de la nature et enfin de la création humaine et de la fertilité. Elles étaient souvent au nombre de trois, de la plus jeune à la plus âgée: Aglaea, Euphrosyne et Thalia', 'sculpture', 100000, 0, 1, 5);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Guernica', 'Cette toile est une dénonciation du bombardement de la ville de Guernica, qui venait de se produire le 26 avril 1937, lors de la guerre d''Espagne, ordonné par les nationalistes espagnols et exécuté par des troupes allemandes nazies et fascistes italiennes', 'peinture', null, 0, 0, 6);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Le Rève', 'Le Rève est une peinture représentant le portrait de Marie-Thérèse Walter, sa jeune compagne d''alors, assise dans un fauteuil mais décrivant en réalité une représentation érotique intense et colorée', 'peinture', 155000000, 0, 1, 6);
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Nuits étoilés', 'Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu''il occupait dans l''asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. ', 'peinture', null, 0, 0, 7);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Le cimetiÃ¨re', 'Huile et crayon sur toile de lin', 'peinture', null , 0, 0, 2); 
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'AnthropomÃ©trie de l''Ã©poque bleue', 'AnthropomÃ©trie de l''Ã©poque bleue est une des toiles de la sÃ©rie des Â« AnthropomÃ©tries Â», empreintes de corps de femmes nues et enduites de couleur bleue sur toiles. Cette Å“uvre fait partie de la collection permanente du Centre Pompidou', 'peinture', 350000, 0, 0, 3);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'La cÃ¨ne', 'La cÃ¨ne est une peinture murale Ã  la dÃ©trempe rÃ©alisÃ©e de 1495 Ã  1498 pour le rÃ©fectoire du couvent dominicain de Santa Maria delle Grazie Ã  Milan', 'peinture', 30000000, 0, 0, 4);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Mona Lisa', 'Mona Lisa, est un tableau rÃ©alisÃ© entre 1503 et 1506 qui reprÃ©sente un portrait mi-corps,', 'peinture', null, 0, 0, 4);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Salvator Mundi', 'Le Salvator Mundi est une peinture Ã  l''huile sur bois de noyer, sur le thÃ¨me du Christ rÃ©dempteur, rÃ©alisÃ©e vers 1500 pour le roi de France et son Ã©pouse', 'peinture', 382000000, 0, 1, 4);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Les trois graces', 'Dans la mythologie grecque les GrÃ¢ces Ã©taient les dÃ©esses du charme, de la beautÃ©, de la nature et enfin de la crÃ©ation humaine et de la fertilitÃ©. Elles Ã©taient souvent au nombre de trois, de la plus jeune Ã  la plus Ã¢gÃ©e: Aglaea, Euphrosyne et Thalia', 'sculpture', 100000, 0, 1, 5);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Guernica', 'Cette toile est une dÃ©nonciation du bombardement de la ville de Guernica, qui venait de se produire le 26 avril 1937, lors de la guerre d''Espagne, ordonnÃ© par les nationalistes espagnols et exÃ©cutÃ© par des troupes allemandes nazies et fascistes italiennes', 'peinture', null, 0, 0, 6);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Le RÃ¨ve', 'Le RÃ¨ve est une peinture reprÃ©sentant le portrait de Marie-ThÃ©rÃ¨se Walter, sa jeune compagne d''alors, assise dans un fauteuil mais dÃ©crivant en rÃ©alitÃ© une reprÃ©sentation Ã©rotique intense et colorÃ©e', 'peinture', 155000000, 0, 1, 6);
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Nuits Ã©toilÃ©s', 'Le tableau reprÃ©sente ce que Van Gogh pouvait voir et extrapoler de la chambre qu''il occupait dans l''asile du monastÃ¨re Saint-Paul-de-Mausole Ã  Saint-RÃ©my-de-Provence en mai 1889. ', 'peinture', null, 0, 0, 7);
 
 
 -- creation photos
@@ -92,15 +92,15 @@ UPDATE "S2G5ET08"."PHOTO_OEUVRE" SET PHOTO=? WHERE ROWID=:sqldevrowid AND ORA_RO
 UPDATE "S2G5ET08"."PHOTO_OEUVRE" SET  WHERE ROWID = 'AABzHtAAEAAAINAAAI' AND ORA_ROWSCN = '338852574'
 UPDATE "S2G5ET08"."PHOTO_OEUVRE" SET PHOTO=? WHERE ROWID=:sqldevrowid AND ORA_ROWSCN=:sqldevrowscn
 
-Validation (commit) effectuée
+Validation (commit) effectuÃ©e
 */
 
 ---------------------------------------------------FIN TP5---------------------------------------------------------------------
 
 ---------------------------------------------------Debut TP6---------------------------------------------------------------------
 
--- Afin d'implémenter l'application dans Access, nous allons simplifier le schéma de la galerie, en
--- considérant qu'une œuvre n'est liée qu'à une seule photo.
+-- Afin d'implÃ©menter l'application dans Access, nous allons simplifier le schÃ©ma de la galerie, en
+-- considÃ©rant qu'une Å“uvre n'est liÃ©e qu'Ã  une seule photo.
 ALTER TABLE PHOTO_OEUVRE DROP PRIMARY KEY;
 ALTER TABLE PHOTO_OEUVRE ADD PRIMARY KEY(refOeuvre);
 
@@ -122,12 +122,12 @@ INSERT INTO OEUVRE_ACHETEE VALUES(10, 2);
 
 INSERT INTO client (nom, prenom, email) VALUES ('Final', 'Aspex', 'finalaspex@deviantart.com');
 INSERT INTO artiste (idArtiste, DateNaissance) VALUES (10, (TO_DATE('10/10/2010', 'dd/mm/yyyy') ) );
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Sunrise Oversea', 'Sunrise Oversea se traduit par "le soleil qui s''élève au dessus de la mer". Son corps représente le soleil ambiant du Sud, et sa crinière la chaleur du lieu. Par ses yeux et l''extérieur des ailes, elle ne peut que faire qu''aux couleur du sud. ', 'peinture', 500, 0, 1, (SELECT idartiste FROM LIENARTISTENOM WHERE Nom like 'Final Aspex'));
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL, 'Sunrise Oversea', 'Sunrise Oversea se traduit par "le soleil qui s''Ã©lÃ¨ve au dessus de la mer". Son corps reprÃ©sente le soleil ambiant du Sud, et sa criniÃ¨re la chaleur du lieu. Par ses yeux et l''extÃ©rieur des ailes, elle ne peut que faire qu''aux couleur du sud. ', 'peinture', 500, 0, 1, (SELECT idartiste FROM LIENARTISTENOM WHERE Nom like 'Final Aspex'));
 INSERT INTO PHOTO_OEUVRE VALUES ('sunrise.jpg', (SELECT refOeuvre FROM OEUVRE WHERE titre like 'Sunrise Oversea'), null);
 
-INSERT INTO client (nom, prenom, email) VALUES ('de Syracuse', 'Archimède', 'archimede.desyracuse@antiquite.gr');
-INSERT INTO artiste (idArtiste, DateNaissance) VALUES ((SELECT idClient FROM Client WHERE prenom like 'Archimède'), TO_DATE('01/02/0000', 'dd/mm/yyyy'));
-INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL,'Pi', 'Que j''aime à faire apprendre ce nombre utile aux sages ! Immortel Archimède, artiste ingénieur, Qui de ton jugement peut priser la valeur ?', 'peinture', 3141592653, 0, 1, (SELECT idartiste FROM LIENARTISTENOM WHERE Nom like '%Archimède%'));
+INSERT INTO client (nom, prenom, email) VALUES ('de Syracuse', 'ArchimÃ¨de', 'archimede.desyracuse@antiquite.gr');
+INSERT INTO artiste (idArtiste, DateNaissance) VALUES ((SELECT idClient FROM Client WHERE prenom like 'ArchimÃ¨de'), TO_DATE('01/02/0000', 'dd/mm/yyyy'));
+INSERT INTO OEUVRE VALUES (SEQ_OEUVRE.NEXTVAL,'Pi', 'Que j''aime Ã  faire apprendre ce nombre utile aux sages ! Immortel ArchimÃ¨de, artiste ingÃ©nieur, Qui de ton jugement peut priser la valeur ?', 'peinture', 3141592653, 0, 1, (SELECT idartiste FROM LIENARTISTENOM WHERE Nom like '%ArchimÃ¨de%'));
 
 INSERT INTO client (nom, prenom, email) VALUES (' ', 'Cresus', 'cresus@jaipasdenom.mc');
 
